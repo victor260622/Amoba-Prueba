@@ -1,4 +1,4 @@
-# vue-3-authentication-jwt
+# Amoba-Prueba
 
 ## Project setup
 ```
