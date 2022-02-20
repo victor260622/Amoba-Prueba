@@ -4,26 +4,27 @@
 </template>
 
 <script>
-
-
 export default {
-  name: 'App',
-
-}
+  name: "App",
+};
 </script>
 
 <style>
-body{
- position:relative;
- background-color: #FFFFFF;
- color: #3D465B;
- margin: 0;
- 
+body {
+  position: relative;
+  background-color: #ffffff;
+  color: #3d465b;
+  margin: 0;
 }
 /* *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 } */
-
+.table-bordered td {
+  border: none;
+}
+thead.vtl-thead.thead-dark {
+  display: none !important;
+}
 </style>

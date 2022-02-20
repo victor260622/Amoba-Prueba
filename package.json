@@ -22,7 +22,9 @@
     "vue-datatable": "^1.0.4",
     "vue-feather": "^2.0.0",
     "vue-feather-icons": "^5.1.0",
+    "vue-final-modal": "^3.4.3",
     "vue-router": "^4.0.12",
+    "vue3-simple-dialog": "^1.0.5",
     "vue3-table-lite": "^1.1.7-1",
     "vuex": "^4.0.2",
     "yup": "^0.32.11"
