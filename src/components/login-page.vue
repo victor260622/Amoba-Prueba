@@ -34,8 +34,8 @@
               class="control-field"
               placeholder="Password"
             />
-            <ErrorMessage name="password" class="error-feedback" />
           </div>
+            <ErrorMessage name="password" class="error-feedback" />
 
           <button class="btn button btn-primary btn-block" :disabled="loading">
             <span
@@ -64,8 +64,8 @@ export default {
   },
   data() {
     const schema = yup.object().shape({
-      username: yup.string().required("Username is required!"),
-      password: yup.string().required("Password is required!"),
+      username: yup.string().required("¡Se requiere un Usuario!"),
+      password: yup.string().required("¡Se requiere una Contraseña!"),
     });
     return {
       loading: false,
@@ -185,6 +185,7 @@ export default {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
+  outline: none;
 }
 .icon-field {
   align-items: center;
